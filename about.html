@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Prompt Studio | CreaNext</title>
-    <meta name="description" content="Generate perfect AI prompts for Midjourney, ChatGPT, and more with CreaNext Prompt Studio.">
+    <title>About | CreaNext PromptGen</title>
+    <meta name="description" content="About CreaNext Prompt Studio - The tool for creative professionals.">
     <link rel="icon" type="image/png" href="creanext/assets/images/cn.png">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' https://www.gstatic.com https://*.firebaseio.com https://*.googleapis.com https://cdnjs.cloudflare.com https://fonts.googleapis.com https://fonts.gstatic.com https://unpkg.com https://creanext-worker.faveeditzs.workers.dev; img-src 'self' data: https:; style-src 'self' 'unsafe-inline' https://cdnjs.cloudflare.com https://fonts.googleapis.com; script-src 'self' 'unsafe-inline' https://www.gstatic.com https://unpkg.com https://cdnjs.cloudflare.com;">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -19,13 +19,13 @@
 
     <header>
         <div class="container">
-            <a href="#" class="logo">CreaNext <span>PromptGen</span></a>
+            <a href="index.html" class="logo">CreaNext <span>PromptGen</span></a>
             <button class="mobile-menu-btn" aria-label="Toggle Menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
             <nav>
                 <ul>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
                     <li><a href="features.html">Features</a></li>
                     <li><a href="https://creanext.in" target="_blank">Main Site <i class="fa-solid fa-arrow-up-right-from-square" style="font-size: 0.7em;"></i></a></li>
                 </ul>
@@ -39,12 +39,12 @@
     </header>
 
     <main>
-        <section id="hero" class="hero-section">
+        <section id="about" class="hero-section" style="margin-top: 2rem;">
             <div class="hero-content">
-                <p class="hero-kicker">Create Beyond Imagination</p>
-                <h1>CreaNext Prompt Studio</h1>
-                <p class="hero-subtitle">Shape clear, ready-to-use prompts in seconds.</p>
-                <button class="primary-btn" id="cta-btn">Start Creating</button>
+                <p class="hero-kicker">Our Mission</p>
+                <h1>Empowering Creators with AI</h1>
+                <p class="hero-subtitle">CreaNext Prompt Studio is designed to bridge the gap between human creativity and artificial intelligence. We help you shape clear, effective prompts that unlock the full potential of tools like Midjourney and ChatGPT.</p>
+                <a href="index.html" class="primary-btn" style="text-decoration: none; display: inline-block;">Start Creating</a>
             </div>
             <div class="hero-visual">
                 <div class="glow-orb orb-one"></div>
@@ -65,50 +65,10 @@
                             <p class="panel-text">Understands tone, audience, and use-case hints.</p>
                         </div>
                     </article>
-                    <article class="panel-item">
-                        <div class="panel-icon" aria-hidden="true"><i class="fa-solid fa-bolt"></i></div>
-                        <div>
-                            <p class="panel-title">Instant export</p>
-                            <p class="panel-text">Copy-ready prompts for docs, chats, or code.</p>
-                        </div>
-                    </article>
                 </div>
-            </div>
-        </section>
-
-                <section id="prompt" class="prompt-section">
-            <div class="prompt-card">
-                <div class="prompt-card-header">
-                    <h2>Share your idea</h2>
-                    <p>Describe what you want and let CreaNext craft a ready-to-use prompt.</p>
-                </div>
-                <label for="prompt-input" class="sr-only">Enter your idea</label>
-                <textarea id="prompt-input" placeholder="Enter your idea"></textarea>
-                <div class="input-row">
-                    <div class="auto-category-panel" aria-live="polite">
-                        <p class="category-panel-label">Auto category</p>
-                        <div class="category-chip" id="category-chip">
-                            <span class="category-glow" aria-hidden="true"></span>
-                            <span class="category-name" id="category-name">Concept Lab</span>
-                        </div>
-                        <p class="category-panel-hint">CreaNext scans 100+ creative lanes and locks the best fit for your idea.</p>
-                        <button class="primary-btn generate-btn" id="generate-btn">Generate Prompt</button>
-                    </div>
-                </div>
-                <div class="prompt-output-wrapper">
-                    <div class="prompt-output-content" id="prompt-output">
-                        Ready when you are—enter an idea and hit Generate to see your prompt.
-                    </div>
-                </div>
-                <button class="copy-btn" id="copy-btn" type="button">
-                    <span class="copy-label">Copy prompt</span>
-                    <span class="copy-status" id="copy-status">Ready</span>
-                </button>
             </div>
         </section>
     </main>
-
-
 
     <footer>
         <div class="container">
@@ -117,7 +77,7 @@
                     <p>&copy; 2025 CreaNext PromptGen. All rights reserved.</p>
                 </div>
                 <div class="social-links">
-                    <a href="https://github.com/Aman-techy/Creanext-promptgen" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://github.com/Aman-techy" target="_blank" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
                 </div>
             </div>
         </div>
